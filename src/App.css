@@ -1,0 +1,121 @@
+:root {
+    --mainColor: #e2434b;
+    --mainColor2: #34222e;
+    --mainColor3: #f9bf8f;
+    --mainColor4: #fee9d7;
+}
+
+p {
+    margin: 0;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+
+.max-container {
+    max-width: 1240px;
+    width: 100%;
+}
+
+/* ===================================== */
+/* SIDEBAR */
+/* ===================================== */
+.sidebar {
+    width: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--mainColor);
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+
+.sidebar .logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    box-sizing: border-box;
+    color: var(--mainColor2);
+}
+
+.sidebar .logo svg {
+    font-size: 40px;
+}
+
+.sidebar ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    list-style: none;
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.w-full {
+    width: 100%;
+}
+
+
+header {
+    color: white;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+header .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: var(--mainColor2);
+    font-weight: 500;
+    width: 100%;
+    background-color: #e2434b;
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--mainColor2);
+}
+
+header .search input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    color: white;
+    margin-left: 50px;
+    font-size: 24px;
+}
+
+header .search input::placeholder {
+    color: var(--mainColor4);
+}
+
+header .search div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+header .search div svg {
+    position: absolute;
+    left: 10px;
+}
+
+
+header svg {
+    font-size: 30px;
+}

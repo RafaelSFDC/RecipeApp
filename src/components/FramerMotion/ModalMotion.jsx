@@ -11,7 +11,7 @@ const ModalMotion = ({ children, onClick, isOpen }) => {
                         left: 0,
                         height: '100%',
                         width: '100%',
-                        background: 'rgba(255, 255, 255, 0.75)',
+                        background: 'rgba(255, 255, 255, 0  .75)',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',

@@ -6,9 +6,9 @@ import Sidebar from './components/Sidebar'
 function App() {
   return (
     <main>
-      <Header />
-      <div className="">
-        <Sidebar />
+      <Sidebar />
+      <div className='w-full'>
+        <Header />
         <Content />
       </div>
     </main>
