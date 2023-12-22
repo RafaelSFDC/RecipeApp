@@ -7,7 +7,7 @@ function App() {
   return (
     <main>
       <Sidebar />
-      <div className='w-full'>
+      <div className='w-full p-5 bg-stone-200 flex flex-col gap-3'>
         <Header />
         <Content />
       </div>

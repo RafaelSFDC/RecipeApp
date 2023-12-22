@@ -1,7 +1,7 @@
 import ContentTrending from './ContentTrending';
 const Content = () => {
 
-    return <div>
+    return <div className='bg-white rounded-xl p-5'>
         <ContentTrending />
     </div>;
 };
